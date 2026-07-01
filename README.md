@@ -1,576 +1,757 @@
-# 📊 Spread Locator - Statistical Distribution Analysis
-
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?style=for-the-badge&logo=jupyter)
-![Data Science](https://img.shields.io/badge/Data%20Science-Analytics-green?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+# 📊 Statistical Distribution Analysis Model
 
-**Advanced Statistical Analysis & Distribution Modeling for Transaction Data** 📈
+### *From Statistical Theory to Practical Distribution Modeling using Python*
 
-[🎯 Quick Start](#-quick-start) • [📚 Theory](#-theoretical-foundation) • [💻 Implementation](#-practical-implementation) • [📊 Data](#-dataset-overview) • [📖 Documentation](#-documentation)
+<p align="center">
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy"/>
+<img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy"/>
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
+
+</p>
+
+---
+
+### 📖 Learn • 📊 Analyze • 📈 Visualize • 📉 Compare
+
+A complete project that explains the **fundamentals of Statistical Distributions** and demonstrates their practical implementation through **Python, Statistical Modeling, Distribution Fitting, and Data Visualization**.
+
+<br>
+
+<a href="YOUR_DEMO_LINK">
+<img src="https://img.shields.io/badge/🎥_Project_Demo-4CAF50?style=for-the-badge"/>
+</a>
+
+<a href="https://github.com/jeelprajapati0606/spread_locator/blob/main/Spread%20Locator/Statistical_Distribution_Analysis_model-checkpoint.ipynb">
+<img src="https://img.shields.io/badge/📓_Jupyter_Notebook-F57C00?style=for-the-badge"/>
+</a>
+
+<a href="https://github.com/jeelprajapati0606/spread_locator/blob/main/Spread%20Locator/Part%20A%20-%20Theoretical%20Foundation.pdf">
+<img src="https://img.shields.io/badge/📄_Theory_Notes-1976D2?style=for-the-badge"/>
+</a>
+
+<a href="https://github.com/jeelprajapati0606/spread_locator/blob/main/Spread%20Locator/Speed_Locator_Data.csv">
+<img src="https://img.shields.io/badge/📊_Dataset-8E24AA?style=for-the-badge"/>
+</a>
 
 </div>
 
 ---
 
-## 🎯 Project Overview
+# 🌟 Overview
 
-**Spread Locator** is a comprehensive data science project that combines theoretical statistical foundations with practical machine learning implementations to analyze and model distribution patterns in transaction data. This project helps identify, analyze, and predict transaction behavior across different regions and customer segments.
+> **Statistical Distribution Analysis Model** is a complete learning project designed to bridge the gap between **statistical theory** and **real-world implementation**.
 
-### ✨ Key Features
+The project is divided into **two major sections**:
 
-| Feature | Description | Impact |
-|---------|-------------|--------|
-| 🎓 **Theoretical Foundation** | Mathematical basis for statistical distributions | Ensures scientific rigor |
-| 🔬 **Statistical Analysis** | Distribution modeling and hypothesis testing | Identifies data patterns |
-| 💾 **Real-world Dataset** | 221 transactions across multiple regions | Practical insights |
-| 📈 **Predictive Modeling** | ML algorithms for transaction forecasting | Business value |
-| 🗺️ **Geographic Analysis** | Regional transaction patterns | Location-based insights |
+| 📚 Section | Description |
+|------------|-------------|
+| 📖 Theory | Covers the complete statistical concepts including probability distributions, Q-Q Plot, Bernoulli, Binomial, Log-Normal, Power Law, Poisson Distribution, Box-Cox Transformation, Z-Score, PDF vs CDF, and their real-world applications. |
+| 💻 Practical | Demonstrates statistical distribution analysis using Python on a real dataset, including exploratory data analysis, visualization, model fitting, and likelihood comparison. |
 
 ---
 
-## 📁 Project Structure
+# ✨ Project Highlights
 
-```
-Spread Locator/
-├── 📄 theory concept : Part A - Theoretical Foundation.pdf
-│   └── Mathematical foundations and statistical concepts
-├── 📓 Statistical_Distribution_Analysis_model-checkpoint.ipynb
-│   └── Practical implementation and analysis
-└── 📊 Speed_Locator_Data.csv
-    └── Raw transaction dataset (221 records)
+<table>
+<tr>
+
+<td width="33%" align="center">
+
+### 📖 Theory
+
+Complete explanation of statistical distributions with formulas, graphs, examples, and Python concepts.
+
+</td>
+
+<td width="33%" align="center">
+
+### 💻 Practical
+
+Hands-on implementation using Python, Pandas, NumPy, SciPy, and Matplotlib.
+
+</td>
+
+<td width="33%" align="center">
+
+### 📈 Analysis
+
+Visualize data, fit statistical distributions, compare likelihoods, and identify the best model.
+
+</td>
+
+</tr>
+</table>
+
+---
+
+# 🚀 Key Features
+
+| Feature | Status |
+|----------|:------:|
+| 📖 Complete Theory Notes | ✅ |
+| 📊 Statistical Distribution Analysis | ✅ |
+| 📈 Distribution Visualization | ✅ |
+| 📉 Distribution Fitting | ✅ |
+| 📋 Log-Likelihood Comparison | ✅ |
+| 📦 Real Dataset | ✅ |
+| 🐍 Python Implementation | ✅ |
+| 📚 Beginner Friendly | ✅ |
+| 💼 Portfolio Ready Project | ✅ |
+
+---
+
+# 📑 Table of Contents
+
+- 🌟 Overview
+- ✨ Key Features
+- 📂 Dataset
+- 📖 Theory Notes
+- 📊 Workflow
+- 💻 Practical Implementation
+- 📈 Results
+- 📸 Project Gallery
+- ⚙️ Installation
+- 🚀 Getting Started
+- 👨‍💻 Author
+
+---
+
+# 📂 Dataset Information
+
+This project uses a **Speed Locator Dataset** to analyze statistical distributions and identify the best-fitting probability model.
+
+---
+
+## 📌 Dataset Overview
+
+| Property | Details |
+|:---------|:--------|
+| 📄 Dataset Name | `Speed_Locator_Data.csv` |
+| 📊 Dataset Type | CSV (Comma Separated Values) |
+| 📈 Data Category | Continuous Numerical Data |
+| 🎯 Analysis Target | `transaction_amount` |
+| 💻 Language Used | Python |
+| 📚 Libraries | Pandas, NumPy, SciPy, Matplotlib |
+
+---
+
+## 📋 Dataset Columns
+
+| # | Column Name | Data Type | Description |
+|:-:|-------------|-----------|-------------|
+| 1 | `transaction_id` | `object` | Unique transaction identifier. |
+| 2 | `customer_id` | `object` | Unique identifier assigned to each customer. |
+| 3 | `transaction_amount` | `float64` | Transaction amount used for statistical distribution analysis. |
+| 4 | `transaction_date` | `object` | Date on which the transaction occurred. |
+| 5 | `transaction_count` | `int64` | Number of transactions associated with the customer. |
+| 6 | `region` | `object` | Geographic region of the transaction. |
+| 7 | `transaction_status` | `object` | Current status of the transaction. |
+
+> 🎯 **Primary Analysis Column:** `transaction_amount`  
+> This column is used throughout the project for distribution fitting, probability analysis, visualization, and log-likelihood comparison.
+
+---
+
+# 📚 Theory Concepts
+
+Understanding statistical distributions is the foundation of data analysis, machine learning, and statistical modeling.
+
+Before performing practical analysis, it is essential to understand how different probability distributions behave, when they should be used, and how they help in solving real-world problems.
+
+This project includes a comprehensive theory guide covering each concept with **definitions, mathematical formulas, graphical illustrations, real-world examples, and Python implementations**.
+
+---
+
+<div align="center">
+
+## 📖 Complete Theory Notes
+
+> 📘 **Click the button below to access the complete Theory PDF.**
+
+<br>
+
+<a href="https://github.com/jeelprajapati0606/spread_locator/blob/main/Spread%20Locator/Part%20A%20-%20Theoretical%20Foundation.pdf">
+
+<img src="https://img.shields.io/badge/📄_Open_Theory_Notes-1976D2?style=for-the-badge"/>
+
+</a>
+
+</div>
+
+---
+
+# 📋 Topics Covered
+
+| # | Topic | Description |
+|:-:|--------|-------------|
+| 01 | 📊 Statistical Distribution | Introduction, Types & Applications |
+| 02 | 📈 Q-Q Plot | Checking Data Normality |
+| 03 | 🔢 Discrete vs Continuous Distribution | Understanding Different Data Types |
+| 04 | 🎲 Bernoulli Distribution | Probability of Binary Outcomes |
+| 05 | 🎯 Binomial Distribution | Multiple Independent Trials |
+| 06 | 📉 Log-Normal Distribution | Right-Skewed Continuous Distribution |
+| 07 | ⚡ Power Law Distribution | Heavy-Tailed Distribution |
+| 08 | 🔄 Box-Cox Transformation | Data Normalization Technique |
+| 09 | 📞 Poisson Distribution | Event Count Distribution |
+| 10 | 📏 Z-Score | Data Standardization & Outlier Detection |
+| 11 | 📈 PDF vs CDF | Understanding Probability Functions |
+
+---
+
+# 🎯 Learning Outcomes
+
+After completing the theoretical section, you will understand:
+
+- ✅ Fundamentals of Statistical Distributions
+- ✅ Difference between Discrete and Continuous Data
+- ✅ Probability Distribution Functions
+- ✅ Data Normalization Techniques
+- ✅ Distribution Comparison Methods
+- ✅ Statistical Visualization Concepts
+- ✅ Distribution Fitting Techniques
+- ✅ Practical Applications in Data Science
+
+---
+
+# 🌍 Real-World Applications
+
+The concepts covered in this project are widely used across multiple industries.
+
+| 🏭 Industry | 📌 Use Case |
+|-------------|------------|
+| 💰 Finance | Risk Analysis & Fraud Detection |
+| 🏥 Healthcare | Disease Prediction & Medical Statistics |
+| 🛒 Retail | Customer Purchase Analysis |
+| 🚗 Transportation | Vehicle Speed & Traffic Analysis |
+| 📱 Social Media | User Behaviour Analytics |
+| 🏭 Manufacturing | Quality Control & Process Monitoring |
+| 📊 Data Science | Machine Learning & Predictive Analytics |
+
+---
+
+# 📚 Why Learn Statistical Distributions?
+
+<table>
+
+<tr>
+
+<td align="center" width="33%">
+
+### 📊 Analyze Data
+
+Understand how data is distributed before building predictive models.
+
+</td>
+
+<td align="center" width="33%">
+
+### 📈 Improve Decision Making
+
+Choose the right statistical model based on data behavior.
+
+</td>
+
+<td align="center" width="33%">
+
+### 🚀 Build Better Models
+
+Improve machine learning performance using appropriate distributions.
+
+</td>
+
+</tr>
+
+</table>
+
+---
+
+> 💡 **Note:** This README provides a high-level overview. For detailed explanations, formulas, graphs, and Python examples, refer to the complete **Theory Notes (PDF)** linked above.
+
+---
+
+# 💻 Practical Implementation
+
+The practical implementation demonstrates how statistical distribution concepts are applied to a real-world dataset using Python.
+
+The complete workflow includes data loading, preprocessing, exploratory data analysis (EDA), visualization, statistical distribution fitting, and model evaluation using **Log-Likelihood**.
+
+---
+
+## 🎯 Project Workflow
+
+```mermaid
+flowchart TD
+
+A[📂 Load Dataset]
+-->B[🧹 Data Cleaning]
+-->C[📊 Exploratory Data Analysis]
+-->D[📈 Distribution Visualization]
+-->E[📉 Distribution Fitting]
+-->F[📋 Log-Likelihood Comparison]
+-->G[🏆 Best Fit Distribution]
 ```
 
 ---
 
-## 📚 Theoretical Foundation
+# ⚙️ Analysis Workflow
 
-### 📖 Part A: Theoretical Concepts
-
-The theoretical foundation document covers essential statistical concepts:
-
-#### Key Theoretical Topics
-
-| Topic | Concept | Formula |
-|-------|---------|---------|
-| **Mean (μ)** | Central tendency measure | $$\mu = \frac{1}{n}\sum_{i=1}^{n} x_i$$ |
-| **Standard Deviation (σ)** | Spread measure | $$\sigma = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(x_i - \mu)^2}$$ |
-| **Variance (σ²)** | Square of deviation | $$\sigma^2 = \frac{1}{n}\sum_{i=1}^{n}(x_i - \mu)^2$$ |
-| **Skewness** | Distribution symmetry | $$\gamma_1 = \frac{\sum(x_i - \mu)^3}{n\sigma^3}$$ |
-| **Kurtosis** | Tail behavior | $$\gamma_2 = \frac{\sum(x_i - \mu)^4}{n\sigma^4} - 3$$ |
-| **Correlation** | Relationship strength | $$r = \frac{\sum(x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum(x_i - \bar{x})^2\sum(y_i - \bar{y})^2}}$$ |
-
-#### Distribution Types Analyzed
-
-```
-Normal Distribution (Gaussian)
-    PDF: f(x) = (1/(σ√(2π))) * e^(-(x-μ)²/(2σ²))
-    Use Case: Transaction amounts, customer spending patterns
-
-Exponential Distribution
-    PDF: f(x) = λe^(-λx), x ≥ 0
-    Use Case: Time between transactions, waiting times
-
-Poisson Distribution
-    PMF: P(X=k) = (e^(-λ) * λ^k) / k!
-    Use Case: Transaction count, rare events
-
-Beta Distribution
-    PDF: f(x) = (Γ(α+β))/(Γ(α)Γ(β)) * x^(α-1) * (1-x)^(β-1)
-    Use Case: Proportions, success rates
-```
-
-📖 **[Download Full Theory Document](theory%20concept%20:%20Part%20A%20-%20Theoretical%20Foundation.pdf)**
+| Step | Process | Status |
+|:---:|----------|:------:|
+| 01 | 📥 Import Required Libraries | ✅ |
+| 02 | 📂 Load Dataset | ✅ |
+| 03 | 🔍 Inspect Dataset | ✅ |
+| 04 | 📊 Exploratory Data Analysis | ✅ |
+| 05 | 📈 Visualize Distribution | ✅ |
+| 06 | 📉 Fit Statistical Distributions | ✅ |
+| 07 | 📋 Compare Log-Likelihood Scores | ✅ |
+| 08 | 🏆 Select Best Distribution | ✅ |
 
 ---
 
-## 💻 Practical Implementation
+# 🛠️ Technologies Used
 
-### 🔬 Statistical Distribution Analysis Model
+<div align="center">
 
-The Jupyter notebook contains complete implementation of distribution analysis with Python data science stack.
+| Technology | Purpose |
+|------------|---------|
+| 🐍 Python | Programming Language |
+| 🐼 Pandas | Data Manipulation |
+| 🔢 NumPy | Numerical Computation |
+| 📊 SciPy | Statistical Modeling |
+| 📈 Matplotlib | Data Visualization |
+| 📉 Statsmodels | Q-Q Plot Analysis |
+| 📓 Jupyter Notebook | Development Environment |
 
-#### Technology Stack
-
-| Component | Technology | Version |
-|-----------|-----------|---------|
-| **Language** | Python | 3.8+ |
-| **Data Processing** | Pandas | 1.3+ |
-| **Numerical Computing** | NumPy | 1.21+ |
-| **Visualization** | Matplotlib, Seaborn | Latest |
-| **Statistics** | SciPy | 1.7+ |
-| **Machine Learning** | Scikit-learn | 0.24+ |
-| **Notebook** | Jupyter | 3.0+ |
-
-#### Analysis Workflow
-
-```
-1️⃣ Data Loading & Exploration
-    ↓
-2️⃣ Data Cleaning & Preprocessing
-    ↓
-3️⃣ Descriptive Statistics
-    ↓
-4️⃣ Distribution Fitting & Testing
-    ↓
-5️⃣ Visualization & Insights
-    ↓
-6️⃣ Predictive Modeling
-    ↓
-7️⃣ Results & Recommendations
-```
-
-#### Key Analysis Functions
-
-| Function | Purpose | Output |
-|----------|---------|--------|
-| `describe_distribution()` | Calculate distribution statistics | Mean, Std, Skew, Kurt |
-| `fit_distribution()` | Fit data to theoretical distributions | Best-fit parameters |
-| `normality_test()` | Test for normality (Shapiro-Wilk) | p-value, result |
-| `visualize_dist()` | Create distribution plots | Histograms, Q-Q plots |
-| `predict_transactions()` | ML-based forecasting | Future transaction values |
-| `regional_analysis()` | Geographic pattern analysis | Regional insights |
-
-📓 **[Open Jupyter Notebook](Statistical_Distribution_Analysis_model-checkpoint.ipynb)**
+</div>
 
 ---
 
-## 📊 Dataset Overview
+# 📌 Implementation Steps
 
-### 📈 Speed_Locator_Data.csv
+The notebook is organized into multiple sections to ensure a structured and easy-to-follow statistical analysis workflow.
 
-Real-world transaction dataset with comprehensive attributes for analysis.
-
-#### Dataset Dimensions
-
-| Metric | Value |
-|--------|-------|
-| 📋 Total Records | 221 transactions |
-| 🏷️ Total Columns | 7 attributes |
-| 🗓️ Time Period | January 2023 |
-| 🌍 Geographic Coverage | 4 regions (North, South, East, West) |
-| 💰 Transaction Range | $804.42 - $20,462.84 |
-
-#### Data Schema & Statistics
-
-| Column | Type | Range/Values | Description |
-|--------|------|--------------|-------------|
-| **transaction_id** | UUID | 221 unique | Unique transaction identifier |
-| **customer_id** | String | CUST[0-9]+ | Customer identifier |
-| **transaction_amount** | Float | 804.42 - 20,462.84 | Amount in currency units |
-| **transaction_date** | Date | 2023-01-01 to 2023-01-31 | Transaction date |
-| **transaction_count** | Integer | 0 - 9 | Number of transactions |
-| **region** | Categorical | North, South, East, West | Geographic region |
-| **transaction_status** | Categorical | Success, Fail | Transaction outcome |
-
-#### Statistical Summary
-
-```
-Transaction Amount Distribution:
-┌─────────────────────────────────────────────────────┐
-│ Mean      : $3,374.52                              │
-│ Median    : $3,261.80                              │
-│ Std Dev   : $2,105.43                              │
-│ Min       : $804.42                                │
-│ Max       : $20,462.84                             │
-│ Range     : $19,658.42                             │
-│ Q1 (25%)  : $1,987.46                              │
-│ Q3 (75%)  : $4,497.22                              │
-└─────────────────────────────────────────────────────┘
-
-Success Rate Analysis:
-┌─────────────────────────────────────────────────────┐
-│ Total Transactions    : 221                         │
-│ Successful           : 103 (46.6%)  ✅             │
-│ Failed               : 118 (53.4%)  ❌             │
-└─────────────────────────────────────────────────────┘
-
-Regional Distribution:
-┌─────────────────────────────────────────────────────┐
-│ North : ~26% of transactions  🟢                    │
-│ South : ~29% of transactions  🔵                    │
-│ East  : ~23% of transactions  🟡                    │
-│ West  : ~22% of transactions  🔴                    │
-└─────────────────────────────────────────────────────┘
-```
-
-### 🔍 Sample Data Records
-
-| transaction_id | customer_id | amount | date | count | region | status |
-|---|---|---|---|---|---|---|
-| e98aa092-... | CUST2824 | $3,821.34 | 2023-01-26 | 3 | North | ❌ Fail |
-| 11ba6918-... | CUST1409 | $2,781.84 | 2023-01-28 | 0 | East | ❌ Fail |
-| 82b7654b-... | CUST5506 | $4,120.97 | 2023-01-28 | 0 | South | ❌ Fail |
-| f7166574-... | CUST5012 | $6,383.78 | 2023-01-18 | 2 | South | ✅ Success |
-| 8632fe26-... | CUST4657 | $2,651.61 | 2023-01-04 | 4 | North | ✅ Success |
-
-**📥 [Full Dataset](Speed_Locator_Data.csv)** • **Total Records: 221**
+| Step | Description |
+|------|-------------|
+| 📦 Step 1 | Import Required Libraries |
+| 📂 Step 2 | Load Dataset |
+| 🔍 Step 3 | Explore Dataset |
+| 📊 Step 4 | Summary Statistics |
+| 📈 Step 5 | Distribution Visualization |
+| 📉 Step 6 | Distribution Fitting |
+| 📋 Step 7 | Log-Likelihood Comparison |
+| 🏆 Step 8 | Final Conclusion |
 
 ---
 
-## 🚀 Quick Start
+> **📖 Below is the complete implementation with code snippets and corresponding outputs from the notebook.**
 
-### Prerequisites
+---
 
-```bash
-# Ensure you have Python 3.8+ installed
-python --version
+# 🚀 Notebook Walkthrough
 
-# Required packages
-pip install pandas numpy matplotlib seaborn scipy scikit-learn jupyter
-```
+This section provides a step-by-step walkthrough of the complete statistical distribution analysis notebook. Each step includes a brief explanation, the corresponding Python code, and the output generated during execution.
 
-### Installation & Setup
+> 📌 **Tip:** Follow the notebook in the same order to reproduce the complete analysis.
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/jeelprajapati0606/spread_locator.git
-cd spread_locator/Spread\ Locator
+---
 
-# 2. Install dependencies
-pip install -r requirements.txt
+# 📦 Step 1 — Import Required Libraries
 
-# 3. Launch Jupyter Notebook
-jupyter notebook
+All the necessary Python libraries are imported for data manipulation, visualization, and statistical analysis.
 
-# 4. Open the analysis notebook
-# Statistical_Distribution_Analysis_model-checkpoint.ipynb
-```
+### 🧩 Libraries Used
 
-### Quick Analysis Example
+- 🐼 Pandas
+- 🔢 NumPy
+- 📊 SciPy
+- 📈 Matplotlib
+- 📉 Statsmodels
 
 ```python
+# import numpy as np
 import pandas as pd
-import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 from scipy import stats
+from scipy.stats import bernoulli, binom, poisson, lognorm, powerlaw, zscore, norm
 
-# Load data
-df = pd.read_csv('Speed_Locator_Data.csv')
-
-# Basic statistics
-print("Transaction Amount Statistics:")
-print(df['transaction_amount'].describe())
-
-# Distribution analysis
-data = df['transaction_amount']
-mean, std = data.mean(), data.std()
-print(f"Mean: ${mean:.2f}, Std Dev: ${std:.2f}")
-
-# Normality test
-stat, p_value = stats.shapiro(data)
-print(f"Shapiro-Wilk Test p-value: {p_value:.4f}")
+from scipy.stats import boxcox
+import statsmodels.api as sm
 ```
-
 ---
 
-## 📖 Documentation
+# 📂 Step 2 — Load the Dataset
 
-### Core Concepts
-
-#### 1️⃣ Distribution Fitting
-
-```
-Process: Fit observed data to theoretical distributions
-
-Formula for Goodness-of-Fit:
-    χ² = Σ((Observed - Expected)² / Expected)
-    
-Interpretation:
-    - Lower χ² = Better fit
-    - p-value > 0.05 = Distribution fits well
-```
-
-#### 2️⃣ Statistical Tests
-
-| Test | Purpose | Null Hypothesis | Decision |
-|------|---------|-----------------|----------|
-| **Shapiro-Wilk** | Normality | Data is normal | Reject if p < 0.05 |
-| **Kolmogorov-Smirnov** | Goodness-of-fit | Data matches dist. | Reject if p < 0.05 |
-| **Anderson-Darling** | Distribution fit | Data follows dist. | More sensitive to tails |
-| **Chi-Square** | Independence | Variables independent | Reject if p < 0.05 |
-
-#### 3️⃣ Predictive Models
-
-```
-Models Used:
-    1. Linear Regression - Baseline predictions
-    2. Polynomial Regression - Non-linear patterns
-    3. Random Forest - Feature importance & accuracy
-    4. Gradient Boosting - Enhanced predictions
-    5. Time Series Analysis - Temporal patterns
-```
-
----
-
-## 📊 Key Insights & Analysis
-
-### Regional Performance Analysis
-
-```
-SUCCESS RATE BY REGION:
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-North: ██████░░░░░░░░ 42.9% (18/42)
-South: ██████░░░░░░░░ 44.8% (20/45)
-East:  ██████░░░░░░░░ 43.6% (10/23)
-West:  ██████░░░░░░░░ 51.6% (16/31)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Overall: 46.6% (103/221) ✅
-```
-
-### Transaction Amount by Status
-
-```
-FAILED TRANSACTIONS:
-  Average Amount: $3,421.89
-  Median Amount:  $3,309.10
-  Std Deviation:  $2,156.34
-  
-SUCCESSFUL TRANSACTIONS:
-  Average Amount: $3,318.21
-  Median Amount:  $3,200.50
-  Std Deviation:  $2,054.91
-```
-
----
-
-## 🎬 Interactive Demo
-
-### Option 1: Web-Based Interactive Dashboard
-
-[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jeelprajapati0606/spread_locator/main?filepath=Spread%20Locator%2FStatistical_Distribution_Analysis_model-checkpoint.ipynb)
-
-**[🎯 Launch Interactive Dashboard](https://mybinder.org/v2/gh/jeelprajapati0606/spread_locator/main?filepath=Spread%20Locator%2FStatistical_Distribution_Analysis_model-checkpoint.ipynb)**
-
-### Option 2: Google Colab Notebook
-
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jeelprajapati0606/spread_locator/blob/main/Spread%20Locator/Statistical_Distribution_Analysis_model-checkpoint.ipynb)
-
-**[📘 View on Google Colab](https://colab.research.google.com/github/jeelprajapati0606/spread_locator/blob/main/Spread%20Locator/Statistical_Distribution_Analysis_model-checkpoint.ipynb)**
-
-### Option 3: Local Jupyter Notebook
-
-```bash
-cd "Spread Locator"
-jupyter notebook Statistical_Distribution_Analysis_model-checkpoint.ipynb
-```
-
-**Interactive Features:**
-- 📊 Real-time visualization
-- 🎨 Customizable plots
-- 🔄 Live data filtering
-- 📈 Distribution comparisons
-- 💾 Export results
-
----
-
-## 🔍 Analysis Workflow
-
-### Step-by-Step Process
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│ STEP 1: DATA COLLECTION & LOADING                          │
-│  └─ Load CSV, check dimensions, validate data types        │
-└─────────────────────────────────────────────────────────────┘
-                          ↓
-┌─────────────────────────────────────────────────────────────┐
-│ STEP 2: EXPLORATORY DATA ANALYSIS (EDA)                    │
-│  └─ Describe stats, visualize distributions, check missing │
-└─────────────────────────────────────────────────────────────┘
-                          ↓
-┌─────────────────────────────────────────────────────────────┐
-│ STEP 3: DATA PREPROCESSING & CLEANING                      │
-│  └─ Handle outliers, normalize, encode categories          │
-└─────────────────────────────────────────────────────────────┘
-                          ↓
-┌─────────────────────────────────────────────────────────────┐
-│ STEP 4: DISTRIBUTION ANALYSIS                              │
-│  └─ Fit distributions, test goodness-of-fit, identify best │
-└─────────────────────────────────────────────────────────────┘
-                          ↓
-┌─────────────────────────────────────────────────────────────┐
-│ STEP 5: STATISTICAL TESTING                                │
-│  └─ Normality tests, hypothesis testing, confidence limits │
-└─────────────────────────────────────────────────────────────┘
-                          ↓
-┌─────────────────────────────────────────────────────────────┐
-│ STEP 6: VISUALIZATION & INSIGHTS                           │
-│  └─ Create plots, identify patterns, regional analysis     │
-└─────────────────────────────────────────────────────────────┘
-                          ↓
-┌─────────────────────────────────────────────────────────────┐
-│ STEP 7: PREDICTIVE MODELING                                │
-│  └─ Build models, evaluate, make predictions               │
-└─────────────────────────────────────────────────────────────┘
-```
-
----
-
-## 📈 Mathematical Formulas Reference
-
-### Descriptive Statistics
-
-$$\text{Mean} \quad \mu = \frac{1}{n}\sum_{i=1}^{n} x_i$$
-
-$$\text{Variance} \quad \sigma^2 = \frac{1}{n}\sum_{i=1}^{n}(x_i - \mu)^2$$
-
-$$\text{Standard Deviation} \quad \sigma = \sqrt{\sigma^2}$$
-
-$$\text{Coefficient of Variation} \quad CV = \frac{\sigma}{\mu} \times 100\%$$
-
-### Distribution Tests
-
-$$\text{Z-Score} \quad z = \frac{x - \mu}{\sigma}$$
-
-$$\text{T-Statistic} \quad t = \frac{\bar{x} - \mu_0}{s/\sqrt{n}}$$
-
-$$\text{Chi-Square} \quad \chi^2 = \sum_{i=1}^{k} \frac{(O_i - E_i)^2}{E_i}$$
-
-### Linear Regression
-
-$$\hat{y} = \beta_0 + \beta_1 x$$
-
-$$\text{R-squared} \quad R^2 = 1 - \frac{\sum(y_i - \hat{y}_i)^2}{\sum(y_i - \bar{y})^2}$$
-
----
-
-## 🎓 Learning Outcomes
-
-After studying this project, you will understand:
-
-| Topic | Skill | Application |
-|-------|-------|-------------|
-| **Distributions** | Identify & model distributions | Predict transaction patterns |
-| **Statistics** | Hypothesis testing & inference | Make data-driven decisions |
-| **Visualization** | Create publication-quality plots | Communicate insights |
-| **ML/AI** | Build & evaluate models | Forecast future trends |
-| **Data Science** | Complete data science workflow | Real-world problem solving |
-
----
-
-## 🛠️ Advanced Features
-
-### Custom Analysis Functions
+The dataset is loaded into a Pandas DataFrame to begin the statistical analysis.
 
 ```python
-# Regional trend analysis
-df.groupby('region')['transaction_amount'].describe()
-
-# Time series forecasting
-from statsmodels.tsa.seasonal import seasonal_decompose
-decomposition = seasonal_decompose(df['transaction_amount'])
-
-# Anomaly detection
-from sklearn.ensemble import IsolationForest
-outliers = IsolationForest().fit_predict(df[['transaction_amount']])
+# df = pd.read_csv("Speed_Locator_Data.csv")
+df.head()
 ```
 
-### Visualization Capabilities
+### 📸 Output
 
-- 📊 Histograms & KDE plots
-- 📈 Box plots & violin plots
-- 🎯 Q-Q plots for normality assessment
-- 🗺️ Regional comparison plots
-- 📅 Time series visualizations
-- 🔥 Heatmaps for correlations
+<img width="991" height="308" alt="image" src="https://github.com/user-attachments/assets/bec5a6fc-78af-4d4b-8ffa-44d59912e363" />
+
 
 ---
 
-## 📚 Resources & References
+# 📊 Step 3 — Bernoulli and Binomial distributions (transaction occurrence & weekly count).
 
-### Key Books & Papers
+Descriptive statistics provide a quick summary of the numerical data, including central tendency and dispersion.
 
-1. **Statistical Distribution Analysis**
-   - "Introduction to Statistical Learning" by James et al.
-   - "Probability & Statistics for Engineering" by Devore
 
-2. **Python Data Science**
-   - "Python for Data Analysis" by Wes McKinney
-   - "Hands-On Machine Learning" by Géron
 
-3. **Time Series & Forecasting**
-   - "Forecasting: Principles & Practice" by Hyndman & Athanasopoulos
+```python
+#  Bernoulli Distribution (transaction occurrence) 
 
-### Online Courses
+ Success = 1, Fail = 0
+df["transaction_occurrence"] = df["transaction_status"].map({
+    "Success": 1,
+    "Fail": 0
+})
 
-- 🎓 Coursera: Statistics with Python
-- 🎓 edX: Data Science Essentials
-- 🎓 DataCamp: Statistical Thinking in Python
+sns.countplot(x=df["transaction_occurrence"])
+plt.title("Bernoulli Distribution - Transaction Occurrence")
+plt.xlabel("Transaction (0=Fail, 1=Success)")
+plt.ylabel("Count")
+plt.show()
+```
 
----
+### 📸 Output
 
-## 🤝 Contributing
-
-Contributions are welcome! To contribute:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-### Ideas for Contribution
-
-- [ ] Add more statistical tests
-- [ ] Implement real-time dashboard
-- [ ] Add machine learning models
-- [ ] Expand geographic analysis
-- [ ] Create visualization library
-- [ ] Performance optimization
+<img width="754" height="624" alt="image" src="https://github.com/user-attachments/assets/d3a7a7bd-9fcb-4756-a4c5-39a6f07520a5" />
 
 ---
 
-## 📝 License
+```python
+# # Binomial Distribution (Weekly Transaction Count)
 
-This project is licensed under the **MIT License** - see the LICENSE file for details.
+sns.histplot(df["transaction_count"], bins=10)
+
+plt.title("Binomial Distribution - Weekly Transaction Counts")
+plt.xlabel("Number of Transactions per Week")
+plt.ylabel("Frequency")
+
+plt.show()
+```
+### 📸 Output
+
+<img width="673" height="659" alt="image" src="https://github.com/user-attachments/assets/415cd600-95ac-49c3-a9f1-e88041696f8a" />
+
+---
+
+# 📊 Step 4 — Poisson distribution (number of transactions per day).
+
+
+```python
+# Daily_Transaction = df.groupby("transaction_date").size()
+
+lam = Daily_Transaction.mean()
+print("Lambda: ",lam)
+
+x = np.arange(0,Daily_Transaction.max()+3)
+
+pmf = poisson.pmf(x,lam)
+
+plt.figure(figsize =(7,4))
+plt.bar(x,pmf)
+plt.title("Poisson Distribution")
+plt.xlabel("Transactions Per Day")
+plt.ylabel("Probability")
+plt.show()
+```
+
+### 📸 Output
+
+<img width="1052" height="721" alt="image" src="https://github.com/user-attachments/assets/feabe887-0c2c-468c-905b-991a91b1dba4" />
+
+---
+
+<div align="center">
+
+### ⏩ Continue to the next section for Distribution Fitting and Statistical Analysis.
+
+</div>
+
+---
+
+## 📐 Step 5 — Model transaction amounts using Log-Normal
+
+The Log-Normal distribution is fitted to the dataset to determine how well it represents the observed data.
+
+```python
+# amount = df["transaction_amount"]
+
+shape,loc,scale = lognorm.fit(amount, floc=0)
+
+print("Shape",shape)
+print("Scale",scale)
+
+plt.figure(figsize=(8,5))
+
+sns.histplot(amount, bins=30, stat='density')
+
+x = np.linspace(amount.min(), amount.max(),300)
+
+pdf = lognorm.pdf(x,shape,loc,scale)
+
+plt.plot(x,pdf,'r',linewidth=2)
+
+plt.title("log normal fit")
+plt.show()
+```
+
+### 📸 Output
+
+<img width="1072" height="714" alt="image" src="https://github.com/user-attachments/assets/1069d0f2-8d70-49b5-886a-7d72dd5b6cae" />
+
+
+> 💡 **Observation:** The fitted Log-Normal curve is compared with the histogram to evaluate the quality of fit.
+
+---
+
+
+## ⚡ Step 6 — Power Law Distribution Fitting
+
+The Power Law distribution is applied to analyze whether the dataset exhibits heavy-tailed behavior.
+
+```python
+# amount = df["transaction_amount"]
+
+shape,loc,scale = powerlaw.fit(amount)
+
+print("Shape", shape)
+
+pdf = powerlaw.pdf(x,shape,loc,scale)
+
+plt.figure(figsize=(8,5))
+
+sns.histplot(amount, bins=30, stat="density")
+
+plt.plot(x,pdf,'b',linewidth=2)
+
+plt.title("Power Law Distribution")
+
+plt.show()
+```
+
+### 📸 Output
+
+<img width="969" height="679" alt="image" src="https://github.com/user-attachments/assets/a7ee2764-0241-48cd-b5ec-4c360a6c618c" />
+
+
+> 💡 **Observation:** This step evaluates whether the dataset follows a Power Law pattern.
+
+---
+
+## 📉 Step 7 — Q-Q Plot Analysis
+
+A Quantile-Quantile (Q-Q) Plot is used to compare the distribution of the dataset with a theoretical normal distribution. It helps determine whether the data follows a normal distribution.
+
+```python
+# amount = df["transaction_amount"]
+
+plt.figure(figsize=(6,6))
+
+stats.probplot(amount, dist="norm",plot=plt)
+plt.title("Q-Q Plot")
+plt.show()
+
+# Shapiro-Wilk Test
+
+stat, pvalue = stats.shapiro(amount)
+
+print("Shapiro Statistic:", stat)
+print("P-value:", pvalue)
+
+if pvalue > 0.05:
+    print("Data appears Normally Distributed.")
+else:
+    print("Data is NOT Normally Distributed.")
+```
+
+### 📸 Output
+
+<img width="915" height="716" alt="image" src="https://github.com/user-attachments/assets/02849c67-e3f4-468c-ab3a-7d4aee321093" />
+
+
+> 💡 **Observation:** The Q-Q Plot indicates whether the data closely follows a normal distribution or deviates from it.
+---
+
+
+## 🔄 Step 8 — Box-Cox Transformation
+
+The Box-Cox Transformation is performed to reduce skewness and make the data more normally distributed.
+
+```python
+# amount = df["transaction_amount"]
+
+# Box-Cox requires positive values
+
+positive_amount = amount + 1
+
+transformed, lambda_value = stats.boxcox(positive_amount)
+print("Optimal Lambda ", lambda_value )
+
+plt.figure(figsize=(12,5))
+
+plt.subplot(1,2,1)
+plt.hist(amount, bins=30)
+plt.title("Original Data")
+
+plt.subplot(1,2,2)
+plt.hist(transformed, bins=30, color="green")
+plt.title("After Box-Cox")
+
+plt.show()
+```
+
+### 📸 Output
+
+<img width="1028" height="669" alt="image" src="https://github.com/user-attachments/assets/ea09d1bf-7202-4bb0-81e2-9950328b0002" />
+
+
+> 💡 **Observation:** After transformation, the distribution becomes more symmetric, improving statistical modeling.
+
+---
+
+
+##  Step 9 — Z-scores for transaction amounts and compute probability of transactions exceeding ₹5000
+
+
+
+```python
+# amount = df["transaction_amount"]
+
+df ["Z_score"]= zscore(amount)
+
+print(df[["transaction_amount", "Z_score"]].head())
+
+# Probability of transaction amount > ₹5000
+
+mean = amount.mean()
+
+std = amount.std()
+
+probability = 1- norm.cdf(5000, loc =mean, scale =std)
+
+print("Probability of Transaction Amount > ₹5000:", probability)
+```
+
+### 📸 Output
+
+<img width="965" height="305" alt="image" src="https://github.com/user-attachments/assets/3e3cbe35-934d-4aa0-b374-f466e43b8130" />
+
+
+---
+
+##  Step 10 — Plot and interpret **PDF and CDF** for transaction amounts.
+
+
+
+```python
+# amount = df["transaction_amount"]
+
+mean = amount.mean()
+std = amount.std()
+
+x = np.linspace(amount.min(), amount.max(), 500)
+
+
+# PDF
+
+pdf = norm.pdf(x, mean, std)
+
+plt.figure(figsize =(8,5))
+plt.plot(x,pdf)
+plt.title("Probability Density Function (PDF)")
+plt.xlabel("Transaction Amount")
+
+plt.ylabel("Density")
+plt.grid(True)
+plt.show()
+
+# CDF
+
+cdf = norm.cdf(x, mean, std)
+
+plt.figure(figsize=(8,5))
+plt.plot(x, cdf, color="green")
+plt.title("Cumulative Distribution Function (CDF)")
+plt.xlabel("Transaction Amount")
+plt.ylabel("Cumulative Probability")
+plt.grid(True)
+plt.show()
+```
+
+### 📸 Output
+
+<img width="650" height="771" alt="image" src="https://github.com/user-attachments/assets/1be85b73-2151-4bd0-bc34-6bdcaff948a5" />
+
+<img width="1010" height="249" alt="image" src="https://github.com/user-attachments/assets/c27840a6-0a2f-45ad-b51c-74c31cf7df3c" />
+
+
+---
+
+## 📋 Step 11 — Log-Likelihood Comparison
+
+The Log-Likelihood score is calculated for each fitted distribution to determine which model best represents the dataset.
+
+```python
+# amount = df["transaction_amount"]
+
+# Log-Normal Fit
+
+log_shape, log_loc, log_scale = lognorm.fit(amount, floc=0)
+
+log_lh = lognorm.logpdf(amount, log_shape, log_loc, log_scale).sum()
+
+# Power Law Fit
+
+pow_shape, pow_loc, pow_scale = powerlaw.fit(amount)
+pow_lh = powerlaw.logpdf(amount, pow_shape, pow_loc, pow_scale).sum()
+
+print("Log-Normal Log-Likelihood:", log_lh)
+print("Power Law Log-Likelihood:", pow_lh)
+
+if log_lh > pow_lh:
+    print("\nBest Fit: Log-Normal Distribution")
+else:
+    print("\nBest Fit: Power Law Distribution")
+```
+
+### 📸 Output
+
+<img width="991" height="341" alt="image" src="https://github.com/user-attachments/assets/fe9eaf1a-6dda-4702-b7ff-0cda6cfab802" />
+
+
+> 💡 **Observation:** The distribution with the highest Log-Likelihood value provides the best statistical fit.
+
+
+> 💡 **Final Conclusion:** The best-fitting probability distribution is selected based on statistical evidence and Log-Likelihood comparison.
 
 ---
 
 ## 👤 Author
 
 **Jeel Prajapati**
-- 📧 Email: [your-email@example.com]
-- 🐙 GitHub: [@jeelprajapati0606](https://github.com/jeelprajapati0606)
-- 💼 LinkedIn: [Your Profile]
+
+- GitHub: [@jeelprajapati0606](https://github.com/jeelprajapati0606)
+- Repository: [Spread locator](https://github.com/jeelprajapati0606/spread_locator/tree/main/Spread%20Locator)
 
 ---
-
-## 🙏 Acknowledgments
-
-- Thanks to all open-source contributors
-- Statistical theory references and resources
-- Data science community for inspiration
-
----
-
-## 📞 Support & Contact
-
-For questions, issues, or suggestions:
-
-| Channel | Method |
-|---------|--------|
-| **Issues** | [GitHub Issues](https://github.com/jeelprajapati0606/spread_locator/issues) |
-| **Discussions** | [GitHub Discussions](https://github.com/jeelprajapati0606/spread_locator/discussions) |
-| **Email** | [your-email@example.com] |
-
----
-
 <div align="center">
+   
+###  ⭐ If you found this project helpful, please consider giving it a star! ⭐
 
-### ⭐ If you found this project helpful, please star it!
-
-[![GitHub Stars](https://img.shields.io/github/stars/jeelprajapati0606/spread_locator?style=social)](https://github.com/jeelprajapati0606/spread_locator)
-
-**Built with ❤️ for Data Science Enthusiasts**
-
-![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue?style=flat-square&logo=python)
-![Data Science](https://img.shields.io/badge/Data%20Science-Statistics-brightgreen?style=flat-square)
-![Open Source](https://img.shields.io/badge/Open%20Source-MIT-green?style=flat-square)
+### Made with ❤️ by Jeel Prajapati
 
 </div>
-
----
-
-**Last Updated:** July 2026 | **Version:** 1.0.0 | **Status:** ✅ Active Development
