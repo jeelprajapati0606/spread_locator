@@ -114,10 +114,6 @@ Visualize data, fit statistical distributions, compare likelihoods, and identify
 - 📖 Theory Notes
 - 📊 Workflow
 - 💻 Practical Implementation
-- 📈 Results
-- 📸 Project Gallery
-- ⚙️ Installation
-- 🚀 Getting Started
 - 👨‍💻 Author
 
 ---
